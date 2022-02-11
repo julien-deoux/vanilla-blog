@@ -1,0 +1,14 @@
+/*
+  This file contains small touches specific to blog posts that are not
+  in the Vanilla framework but that you can find on the Ubuntu website.
+*/
+
+.blog-p-card {
+  display: flex;
+  flex-direction: column;
+  border-top: 3px solid #666;
+}
+
+.blog-p-card__content {
+  flex-grow: 1;
+}

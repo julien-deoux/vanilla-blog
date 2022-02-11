@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://assets.ubuntu.com/v1/vanilla-framework-version-3.1.0.min.css" />
+  <link rel="stylesheet" href="style.css">
+  <title>Vanilla blog</title>
+</head>
+
+<body>
+  <div class="p-strip">
+    <div class="row" id="posts"></div>
+  </div>
+
+  <template id="posttemplate">
+    <div class="col-4 u-equal-height">
+      <div class="p-card p-card--higlighted blog-p-card">
+        <header>
+          <h5 class="jd-post-topic p-muted-heading">Topic</h5>
+          <hr>
+        </header>
+        <div class="blog-p-card__content">
+          <a href="#" class="jd-post-image-link">
+            <img class="p-card__image jd-post-image" alt="#" height="185" width="330" src="#">
+          </a>
+          <h4><a href="#" class="jd-post-title">Article title</a></h4>
+          <p>By <a href="#" class="jd-post-author">author</a> on <span class="jd-post-date">01 January 2000</span></p>
+        </div>
+        <div class="blog-p-card__footer">
+          <hr class="u-sv1">
+          <p>Article</p>
+        </div>
+      </div>
+    </div>
+  </template>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
